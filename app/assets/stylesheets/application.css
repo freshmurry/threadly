@@ -1,0 +1,89 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+html, body {
+ font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	border-left: 2px solid #00f28f;
+	font-size: 48px;
+	font-weight: 408;
+	padding-left: 20px;
+	color: #34495e;
+}
+
+h4 {
+	color: #34495e;
+}
+
+.main {
+	margin-top: 80px;
+}
+
+form input {
+	background: #ecf0f1;
+	border: none;
+	border-left: 2px solid #fff;
+	font-size: 36px;
+	padding: 20px;
+	width: 100%;
+	transition: background 2s, border-left 2s;
+}
+
+form input:focus {
+	backgroung: #fff;
+	border-left: 2px solid #000;
+	box-shadow: none;
+	outline: none;
+	color: #2c3e50;
+}
+
+.btn {
+	background: transparent;
+	border: 2px solid #000;
+	/*border: none;*/
+	color: #00f28f;
+	cursor: pointer;
+	font-size: 36px;
+	padding: 20px 24px;
+	transition: background 2s, color 2s;
+}
+
+.btn:hover {
+	background: #00f28f
+	color: #2c3e50;	
+}
+
+.comments {
+	margin-top: 20px;
+	list-style: none;
+	padding-left: 0px;
+	color: #2c3e50;
+}
+
+li {
+	padding-left: 20px;
+	border-left: 2px solid #000;
+	font-size: 36px;
+	margin: 0 0 36px;
+}
+
+footer {
+	float: right;
+	padding-right: 104px; 
+	position: center;
+}
